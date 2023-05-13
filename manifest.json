@@ -1,0 +1,40 @@
+{
+  "name": "CodeConsist",
+  "version": "1.0",
+  "description": "Research shows that to change a person's life for the better, they must make bad habits harder to perform.Are you looking to transform your browsing habits and increase your productivity? Look no further than CodeBlock, the innovative chrome extension that's designed to help you break bad browsing habits and get more done. Based on the latest research, CodeBlock makes it harder to access distracting sites by requiring users to solve a coding challenge before being granted access for a limited amount of time. With each unique visit to a distracting site, users are prompted with a new and exciting coding challenge to solve. As they progress, the challenges become increasingly difficult, helping to sharpen their coding skills and improve their productivity. So if you're tired of wasting time on the web, give CodeBlock a try and start making the most of your online time today!",
+  "permissions": [
+    "activeTab",
+    "declarativeContent",
+    "storage",
+    "https://www.youtube.com/*",
+    "https://www.facebook.com/*",
+    "https://www.netflix.com/*"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/LeetCode_logo.png",
+      "32": "images/LeetCode_logo.png",
+      "48": "images/LeetCode_logo.png",
+      "128": "images/LeetCode_logo.png"
+    }
+  },
+  "icons": {
+    "16": "images/icon16.png",
+    "32": "images/icon48.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["Content.js"]
+    }
+  ]
+}

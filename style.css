@@ -1,0 +1,122 @@
+body {
+	margin: 0;
+
+}
+
+.content {
+	width: 300px;
+	height: 300px;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	background-color: #f7f7f7;
+	border: 1px solid #ccc;
+	border-radius: 1px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+	overflow: hidden;
+}
+
+.content .title {
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #222;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.content .header {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex: 1 1 0;
+	width: 100%;
+	height: 60px;
+	background-color: rgba(0, 0, 0, 0.65);;
+}
+
+.content .header img {
+	height: 40px;
+	width: 40px;
+	margin-right: 5px;
+}
+
+.content .header .name {
+	display: table-cell;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+	vertical-align: middle;
+}
+
+.content .header .leetcode {
+	color: #ECA23E;
+}
+
+.content .detail {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+	height: 60px;
+	padding: 0 10px;
+  }
+  
+  .content .detail .diff {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 50%;
+	font-size: 12px;
+	font-weight: bold;
+	color: #007bff;
+  }
+  
+  .content .detail .btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 50%;
+  }
+  
+  .content .detail .btn #doit {
+	height: 100%;
+	width: 70%;
+	border: none;
+	border-radius: 10px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+	background-color: #5e8000;
+	cursor: pointer;
+	transition: all 0.2s ease-in-out;
+  }
+  
+  .content .detail .btn #doit:hover {
+	background-color: #0062cc;
+  }
+  
+  .content .detail .btn #doit:focus {
+	outline: none;
+	box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+  }
+  
+
+  .quote {
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 20px;
+  }
+  
+  .consi{
+	color: #ECA23E;
+  }

@@ -4,9 +4,9 @@
 Chrome extension that pops up a random LeetCode top 100 question and blocks the social media and streaming platforms to increase productivity.
 
 ## Features
-
-1. Display a random top 100 question and its difficulty
-2. Link to the question
+1. Increases productivity by blocking Social Media and Streaming Platforms.
+2. Display a random top 100 question and its difficulty
+3. Link to the question
 
 ## Installation
 ### Clone

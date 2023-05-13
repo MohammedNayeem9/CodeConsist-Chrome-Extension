@@ -10,7 +10,7 @@ Chrome extension that pops up a random LeetCode top 100 question and blocks the 
 
 ## Installation
 ### Clone
-- Clone this repo to your local machine using `https://github.com/vanessaaleung/A-LeetCode-A-Day.git`
+- Clone this repo to your local machine using `https://github.com/MohammedNayeem9/CodeConsist-Chrome-Extension.git`
 
 ### Setup
 - Open the Extension Management page by navigating to chrome://extensions.

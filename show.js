@@ -1,4 +1,4 @@
-d3.csv("https://raw.githubusercontent.com/vanessaaleung/A-LeetCode-A-Day/master/leetcode.csv", function(d) {
+d3.csv("https://raw.githubusercontent.com/MohammedNayeem9/CodeConsist-Chrome-Extension/main/leetcode.csv", function(d) {
   return {
   	no : +d.No,
     id : +d.ID,

@@ -3,6 +3,8 @@
 # CodeConsist
 Chrome extension that pops up a random LeetCode top 100 question and blocks the social media and streaming platforms to increase productivity.
 
+<img src="demosc.png" width="600px">
+
 ## Features
 1. Increases productivity by blocking Social Media and Streaming Platforms.
 2. Display a random top 100 question and its difficulty

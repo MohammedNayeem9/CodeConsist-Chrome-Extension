@@ -9,7 +9,8 @@ Chrome extension that pops up a random LeetCode top 100 question and blocks the 
 1. Increases productivity by blocking Social Media and Streaming Platforms.
 2. Display a random top 100 question and its difficulty
 3. Link to the question
-
+## Contribution
+To contribute, simply fork this repository, make your changes, and submit a pull request. Remember, every contribution counts, no matter how big or small
 ## Installation
 ### Clone
 - Clone this repo to your local machine using `https://github.com/MohammedNayeem9/CodeConsist-Chrome-Extension.git`
